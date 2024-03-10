@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6822FAFE2B89C5D400611A45 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6822FAFD2B89C5D400611A45 /* main.cpp */; };
+		6822FB062B8F0ED600611A45 /* Scheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6822FB042B8F0ED600611A45 /* Scheduler.cpp */; };
+		6822FB092B8F0EF900611A45 /* Process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6822FB072B8F0EF900611A45 /* Process.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		6822FAFA2B89C5D400611A45 /* LotteryTickets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LotteryTickets; sourceTree = BUILT_PRODUCTS_DIR; };
 		6822FAFD2B89C5D400611A45 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6822FB042B8F0ED600611A45 /* Scheduler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Scheduler.cpp; sourceTree = "<group>"; };
+		6822FB052B8F0ED600611A45 /* Scheduler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Scheduler.hpp; sourceTree = "<group>"; };
+		6822FB072B8F0EF900611A45 /* Process.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Process.cpp; sourceTree = "<group>"; };
+		6822FB082B8F0EF900611A45 /* Process.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Process.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				6822FAFD2B89C5D400611A45 /* main.cpp */,
+				6822FB072B8F0EF900611A45 /* Process.cpp */,
+				6822FB082B8F0EF900611A45 /* Process.hpp */,
+				6822FB042B8F0ED600611A45 /* Scheduler.cpp */,
+				6822FB052B8F0ED600611A45 /* Scheduler.hpp */,
 			);
 			path = LotteryTickets;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6822FAFE2B89C5D400611A45 /* main.cpp in Sources */,
+				6822FB092B8F0EF900611A45 /* Process.cpp in Sources */,
+				6822FB062B8F0ED600611A45 /* Scheduler.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
