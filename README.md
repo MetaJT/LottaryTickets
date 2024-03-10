@@ -1,9 +1,9 @@
 # LottaryTickets
 ## HW for CS540 to demonstrate threads, processes, and scheduling
 
-This program demonstrates how threads, processes, and schedulers can be applied in a lottery system.
+_This program demonstrates how threads, processes, and schedulers can be applied in a lottery system._
 
-The main.cpp is used to initialize the number of players and start the scheduler.
+The `main.cpp` is used to initialize the number of players and start the scheduler.
 
 The `Process Class` is used to represent a "player" and each player has the following attributes:
 - A process ID
