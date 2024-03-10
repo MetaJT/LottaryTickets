@@ -19,9 +19,9 @@ Contains the following attributes:
 - Then we have a helper functions that generate tickets and check tickets.
 
 **Process:**
-1.) Each person buys a random number of tickets and for each ticket they've purchased, they pick their 'winning' ticket.
-2.) Once all of the players have picked their numbers they go to get them checked.
-3.) The checker function takes each player individually and runs each ticket as a thread and compares them to the winning ticket.
+1. Each person buys a random number of tickets and for each ticket they've purchased, they pick their 'winning' ticket.
+2. Once all of the players have picked their numbers they go to get them checked.
+3. The checker function takes each player individually and runs each ticket as a thread and compares them to the winning ticket.
   - If the ticket matches exits thread and exits function
   - Else returns false and sends the player to go purchase new tickets
-4.) Once a player finds the winning ticket the while loop ends and it displays the winner, along with the other processes total number of tickets.
+4. Once a player finds the winning ticket the while loop ends and it displays the winner, along with the other processes total number of tickets.
