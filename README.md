@@ -1,5 +1,5 @@
 # LottaryTickets
-## HW for CS540 to demonstrate threads, processes, and scheduling
+_## HW for CS540 to demonstrate threads, processes, and scheduling_
 
 _This program demonstrates how threads, processes, and schedulers can be applied in a lottery system._
 
