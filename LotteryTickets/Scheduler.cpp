@@ -95,10 +95,16 @@ void* Scheduler::checkProcessTickets(void* arg){
     return nullptr;
 };
 
+// Comparator function
+bool compare(Process a, Process b){
+    return a.getPurchased() <= b.getPurchased();
+}
+
 std::pair<bool, int> Scheduler::checkTickets(std::vector<Process>& processes) {
     // Use thread pool (thread count equal to number of processes)
     pthread_t checks [(int)processes.size()];
-    
+    // SJF -> sortings the processes vector in order by current tickets in hand
+    sort(processes.begin(), processes.end(), compare);
     // Create a vector to hold results from checkers
     std::vector<CheckResult> results(processes.size());
     for (int i = 0; i < processes.size(); i++) {
