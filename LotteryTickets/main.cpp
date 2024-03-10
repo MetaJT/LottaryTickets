@@ -1,3 +1,7 @@
+// Wichita State University CS540 HW2 Lottery System
+// Jordan Trotter D362Y854
+// Git: https://github.com/MetaJT/LottaryTickets.git
+
 #include <iostream>
 #include <vector>
 #include <stdlib.h>
